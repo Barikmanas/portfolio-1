@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold">My Portfolio</div>
+            <div class="space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Hello, I'm a Software Engineer</h1>
+        <p class="mt-2 text-lg">One year of experience in Java development</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 py-20">
+        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+        <p class="mb-4">I'm a passionate software engineer with a strong foundation in Java development. I enjoy solving complex problems and building efficient solutions.</p>
+        <p>My journey started a year ago, and I have worked on various projects, enhancing my skills in software development and design.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-semibold">Project One</h3>
+                    <p class="mt-2">A Java-based web application that helps users manage their tasks efficiently.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-semibold">Project Two</h3>
+                    <p class="mt-2">An Android app developed in Java for tracking fitness activities.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-semibold">Project Three</h3>
+                    <p class="mt-2">A RESTful API built with Java Spring Boot for a library management system.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-semibold">Project Four</h3>
+                    <p class="mt-2">A small Java application that automates file organization on local systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 py-20">
+        <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+        <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required>
+            <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required>
+            <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="4" required></textarea>
+            <button type="submit" class="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="#" class="text-white mx-2"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript can be added here for form submission or interactivity
+    </script>
+</body>
+</html>
